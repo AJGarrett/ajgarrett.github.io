@@ -11,6 +11,7 @@ title: Andy Garrett
               {% else %}<a href="{{ post.url }}">{% endif %}
                 <h2 class="posts__title">{{ post.title }}</h2>
                 <span class="posts__date">{{ post.date | date: "%B %e, %Y" }}</span>
+                <p>{{post.description}}</p>
               </a>
             </li>
             {% endfor %}
