@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+    <article class="post clear">
+      <h1 class="post__title">
+        {{ page.title }}
+      </h1>
+      <div class="post__meta">
+        <p>
+          {{ page.date | date: "%B %d, %Y" }}
+        </p>
+      </div>
+
+      {{ content }}
+      <div class="social">
+        <div class="social__button">
+          <i class="fa fa-twitter blue"></i><a href="https://twitter.com/share" class="twitter-share-button">Tweet This</a>
+        </div>
+      </div>   
+     <div class="disqus">
+        <div id="disqus_thread"></div>
+      </div>
+    </article>
+
+    <script>
+      var disqus_url = {%if page.disqus %}'{{ page.disqus }}'{%else %}'http://toddmotto.com{{ page.url }}'{% endif %};
+      var disqus_title = '{{ page.title }}';
+      var disqus_shortname = 'codeandygarrettnet';
+      (function() {
+        var dsq = document.createElement('script');
+        dsq.async = dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        document.getElementsByTagName('head')[0].appendChild(dsq);
+      })();
+    </script>

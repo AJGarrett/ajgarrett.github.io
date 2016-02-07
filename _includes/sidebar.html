@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="DevOps Engineer - ASP.NET, Javascript.">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <link href="//www.google-analytics.com" rel="dns-prefetch">
+    <link href="/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
+  </head>
+  <body{% if page.class %} class="{{ page.class }}"{% endif %}>
+
+    <div class="sidebar clear">
+      <div class="sidebar__profile">
+        <a href="/">
+          <img src="/assets/media/andy.jpg" alt="Andy" class="sidebar__profile-img">
+        </a>
+        <h1 class="sidebar__profile-name">
+          Andy Garrett
+        </h1>
+        <div class="sidebar__profile-bio clear">
+          <p>
+            Senior Web Developer @ <a href="https://athletesinaction.org/#/?utm_source=ajgarrett.github.io" target="_blank">Athletes In Action</a><br>
+            .NET, Angular JS<br>
+            Husband, Father, and Disciple
+          </p>
+        </div>
+        <div class="sidebar__profile-social">
+          <a href="//twitter.com/andyjgarrett" class="twitter-follow-button" data-show-count="true">
+            <i class="fa fa-twitter"></i> @andyjgarrett
+          </a>
+        </div>
+        <nav class="sidebar__profile-nav">
+          <ul>
+            <li>
+              <a href="/">
+                Posts
+              </a>
+            </li><!--
+            --><li>
+              <a href="/about.html">
+                About
+              </a>
+            </li><!--
+            --><li>
+              <a href="//ajgarrett.github.io/feed.xml">
+                RSS
+              </a>
+            </li><!--
+            --><li>
+              <a href="//github.com/AJGarrett">
+                GitHub
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div id="carbonads-container">
+          <div class="carbonad">
+            <div id="azcarbon"></div>
+          </div>
+        </div>
+        <style>
+          .carbonad {margin: 15px auto 0 !important;}
+        </style>
+      </div>
+    </div>
