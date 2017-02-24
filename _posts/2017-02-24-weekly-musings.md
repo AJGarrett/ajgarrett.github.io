@@ -6,7 +6,7 @@ tags: []
 description: Google Page Speed, Jason Mayden, Programming, Culture
 ---
 
-I’ve always wanted to try to capture 1 or 2 things I’ve learned or am learning each week and make a habit of writing it down.  Scheduling the time to do such has been the challenge, but I am committed to trying.
+I’ve always wanted to try to capture one or two things I’ve learned or am learning each week and make a habit of writing it down.  Scheduling the time to do such has been the challenge, but I am committed to trying.
 
 This week I’ve been trying to move a bunch of projects off my plate that have been sitting there for too long.   It’s the norm for this time of year, but I’m tired of looking at them on my project list. So there’s been a lot of work done of projects I maintain, rather than new development.  So here’s a couple things that caught my interest: 
 
