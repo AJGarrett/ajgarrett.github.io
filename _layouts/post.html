@@ -13,11 +13,11 @@ layout: default
       </div>
 
       {{ content }}
-      <div class="social">
+      <!-- <div class="social">
         <div class="social__button">
           <i class="fa fa-twitter blue"></i><a href="https://twitter.com/share" class="twitter-share-button">Tweet This</a>
         </div>
-      </div>   
+      </div>    -->
       {% unless page.categories == empty %}
        <span style="font-size:11px;">Categories:
 		<ul class="tag_box" style="display:inline;">
@@ -69,12 +69,12 @@ layout: default
 
 		<hr>
 
-     <div class="disqus">
+     <!-- <div class="disqus">
         <div id="disqus_thread"></div>
-      </div>
+      </div> -->
     </article>
 
-    <script>
+    <!-- <script>
       var disqus_url = {%if page.disqus %}'{{ page.disqus }}'{%else %}'http://toddmotto.com{{ page.url }}'{% endif %};
       var disqus_title = '{{ page.title }}';
       var disqus_shortname = 'codeandygarrettnet';
@@ -83,4 +83,4 @@ layout: default
         dsq.async = dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         document.getElementsByTagName('head')[0].appendChild(dsq);
       })();
-    </script>
+    </script> -->
